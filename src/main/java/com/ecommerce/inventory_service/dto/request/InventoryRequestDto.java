@@ -1,0 +1,15 @@
+package com.ecommerce.inventory_service.dto.request;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
+public class InventoryRequestDto {
+    private Long productId;
+    private int stock;
+}
